@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1526403225-6871f066b735?auto=format&fit=crop&w=1400&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #fff;
+}
+
+/* Slight dark overlay */
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.expense-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.expense-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  width: 200px;
+}
+
+.expense-form button {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.expense-form button:hover {
+  background-color: #0097a7;
+}
+
+.expense-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.expense-list th,
+.expense-list td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.expense-list th {
+  background-color: rgba(0, 188, 212, 0.7);
+}
+
+.expense-list td {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.expense-list button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background-color: #03a9f4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.expense-list button:hover {
+  background-color: #0288d1;
+}
+
+.dashboard {
+  margin-top: 40px;
+}
+
+.charts {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+canvas {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
