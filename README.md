@@ -27,5 +27,3 @@ This is a **Full Stack Expense Tracker** application built with the **MERN Stack
 ## Setup Instructions
 
 ### 1. Clone the repository:
-
-```bash
